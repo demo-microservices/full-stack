@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.26730.10
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Demo.Model", "Demo.Model\Demo.Model.csproj", "{852F8841-456C-469D-B5AD-A1F35C24E21F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DemoWeb", "DemoWeb\DemoWeb.csproj", "{D6D9D935-C982-4480-8622-A9B3B384E995}"
+EndProject
+Project("{E53339B2-1760-4266-BCC7-CA923CBCF16C}") = "docker-compose", "docker-compose.dcproj", "{739ED977-1C9C-4406-B093-0CC1332C4152}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{852F8841-456C-469D-B5AD-A1F35C24E21F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{852F8841-456C-469D-B5AD-A1F35C24E21F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{852F8841-456C-469D-B5AD-A1F35C24E21F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{852F8841-456C-469D-B5AD-A1F35C24E21F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D6D9D935-C982-4480-8622-A9B3B384E995}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D6D9D935-C982-4480-8622-A9B3B384E995}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D6D9D935-C982-4480-8622-A9B3B384E995}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D6D9D935-C982-4480-8622-A9B3B384E995}.Release|Any CPU.Build.0 = Release|Any CPU
+		{739ED977-1C9C-4406-B093-0CC1332C4152}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{739ED977-1C9C-4406-B093-0CC1332C4152}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{739ED977-1C9C-4406-B093-0CC1332C4152}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{739ED977-1C9C-4406-B093-0CC1332C4152}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {DF822679-1B0E-4B7D-8528-085ED6EE52E4}
+	EndGlobalSection
+EndGlobal

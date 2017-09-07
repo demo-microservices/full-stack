@@ -1,0 +1,8 @@
+version: '3'
+
+services:
+  demoweb:
+    image: demoweb
+    build:
+      context: ./DemoWeb
+      dockerfile: Dockerfile
