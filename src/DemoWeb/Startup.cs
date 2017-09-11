@@ -11,6 +11,7 @@ using Microsoft.Extensions.DependencyInjection;
 using DemoWeb.Data;
 using DemoWeb.Models;
 using DemoWeb.Services;
+using Microsoft.AspNetCore.Mvc;
 
 namespace DemoWeb
 {
@@ -43,6 +44,7 @@ namespace DemoWeb
             });
 
             services.AddMvc();
+            //services.Configure<MvcOptions>(options => { options.Filters.Add(new RequireHttpsAttribute()); });
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
