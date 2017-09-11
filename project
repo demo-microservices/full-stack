@@ -1,10 +1,10 @@
 
 project
-	name:					remote config micro service
-	champion:				TBD
+	name:				remote config micro service
+	champion:			TBD
 	architect:			TBD
 	developers:			TBD
-	analyst:				TBD
+	analyst:			TBD
 	value-proposition:		micro-service architecture risk abatement
 							platform vendor independence (aws/azure)
 							config management consistency, accuracy, delivery							
